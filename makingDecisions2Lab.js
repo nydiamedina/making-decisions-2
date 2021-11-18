@@ -94,6 +94,7 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
 
 //Code Here
 
+let someNum = myFavoriteNumbers[4];
 
 ////////// PROBLEM 7 //////////
 
@@ -102,6 +103,11 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
 
 //Code Here
 
+if (myFavoriteNumbers.length < 7) {
+  console.log('There are not enough elements in this array.')
+} else {
+  someNum = myFavoriteNumbers[6];
+}
 
 ////////// PROBLEM 8 //////////
 
