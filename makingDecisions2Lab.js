@@ -79,7 +79,6 @@ if (score >= 90) {
   console.log('F');
 }
 
-
 ////////// Intermediate Problems //////////
 
 ////////// PROBLEM 6 //////////
@@ -206,6 +205,7 @@ switch (letterGrade) {
 */
 
 //Code Here
+
 for (let i = 1; i <= 100; i++) {
   if (i % 3 === 0 && i % 5 === 0) {
     console.log('Devmountain');
